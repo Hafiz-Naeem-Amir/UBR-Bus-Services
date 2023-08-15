@@ -1,0 +1,32 @@
+@media screen and (max-width:768px) {
+          .bottom-head {
+                    display: none;
+          }
+
+          .header .top-head {
+                    display: flex;
+                    gap: .7rem;
+          }
+
+          header .top-head {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: .1rem;
+          }
+
+           p {
+                    font-size: .8rem;
+
+          }
+          a{
+                    font-size: 0.8rem;
+          }
+
+          .top-head > a> i {
+                    font-size: .8rem;
+          }
+          .top-head p{
+                    font-size: .7rem;
+          }
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+          margin: 0px;
+          padding: 0px;
+          border: 0px;
+          border: 0px;
+          overflow-x: hidden;
+          scroll-behavior: smooth;
+          font-family: 'Patua One', cursive;
+          /* font-family: 'Poppins', sans-serif; */
+
+}
+
+:root {
+          --background-color-: #fff;
+}
+
+a{
+          text-decoration: none;
+          cursor: pointer;
+          color: white;
+          /* padding-left: 1rem; */
+}
+
+i{
+          text-decoration: none;
+          cursor: pointer;
+          color: white;
+          /* padding-left: 1rem; */
+          font-size: 1rem;
+          transition: .5s ease;
+}
+p{
+          color: #fff;
+}
+
+.btn{
+          padding: 1.5rem;
+
+}
+
+/* header section style  */
+header{
+          background-color: #368dffec;
+          text-align: center;
+
+}
+
+nav{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          /* justify-content: center; */
+          width: 90%;
+          margin: 1rem auto;
+}
+
+header .top-head{
+          display: flex;
+          gap: .7rem;
+}
+
+.top-head a:hover{
+          text-decoration: underline;
+}
+
+
+.bottom-head a{
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+         width: 2rem;
+         height: 2rem;
+         border:.2rem solid transparent ;
+         background-color: transparent;
+         border-radius: 50%;
+
+                  
+
+}
+.bottom-head a:hover{
+          background-color:#033577ec;
+}
